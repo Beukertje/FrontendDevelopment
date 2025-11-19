@@ -80,23 +80,26 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details>
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
-  ### de hele pagina: 
+  ### landing page: 
   <img src="readme-images/1mainpage.png" width="375px" alt="breakdown van de landing">
 
-  ### dynamisch deel (bijv menu): 
+  ### discovery page (drie modellen):
   <img src="readme-images/2modelsdiscovery.png" width="375px" alt="breakdown van discovery page">
 
-  ### wellicht nog een dynamisch deel (bijv filter): 
+  ### alle modellen:
   <img src="readme-images/3modelselection.png" width="375px" alt="breakdown van alle modellen selectie">
 
-  ### wellicht nog een dynamisch deel (bijv filter): 
+  ### porsche experiences:
   <img src="readme-images/4experiences.png" width="375px" alt="breakdown van experiences">
 
-  ### wellicht nog een dynamisch deel (bijv filter): 
+  ### bovenste deel van de footer:
   <img src="readme-images/5footer1.png" width="375px" alt="breakdown van het eerste deel van de footer">
 
-  ### wellicht nog een dynamisch deel (bijv filter): 
+  ### onderste deel van de footer:
   <img src="readme-images/6footer2.png" width="375px" alt="breakdown van het laatste deel van de footer">
+
+  ### Pagina 2: 911 model selectiescherm
+  <img src="readme-images/911page.png" width="375px" alt="breakdown van de 911 pagina">
 
 </details>
 
