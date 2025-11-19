@@ -67,6 +67,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
 
+  1. De website is redelijk toegankelijk, en responsive
+  2. Sommige dingen van de test waren niet van toepassing
+  3. De HTML is grotendeels valide, met een paar kleine punten
+
 </details>
 
 
@@ -77,13 +81,22 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/1mainpage.png" width="375px" alt="breakdown van de landing">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="readme-images/2modelsdiscovery.png" width="375px" alt="breakdown van discovery page">
 
   ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  <img src="readme-images/3modelselection.png" width="375px" alt="breakdown van alle modellen selectie">
+
+  ### wellicht nog een dynamisch deel (bijv filter): 
+  <img src="readme-images/4experiences.png" width="375px" alt="breakdown van experiences">
+
+  ### wellicht nog een dynamisch deel (bijv filter): 
+  <img src="readme-images/5footer1.png" width="375px" alt="breakdown van het eerste deel van de footer">
+
+  ### wellicht nog een dynamisch deel (bijv filter): 
+  <img src="readme-images/6footer2.png" width="375px" alt="breakdown van het laatste deel van de footer">
 
 </details>
 
