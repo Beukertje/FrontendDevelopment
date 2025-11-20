@@ -65,11 +65,19 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
+
+  <img src="readme-images/toegankelijkheidstest1.png.png" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/toegankelijkheidstest2.png.png" width="375px" alt="omschrijving van de pagina">
+
+
   Lijst met je bevindingen die in de test naar voren kwamen:
 
-  1. De website is redelijk toegankelijk, en responsive
-  2. Sommige dingen van de test waren niet van toepassing
-  3. De HTML is grotendeels valide, met een paar kleine punten
+  1. De website is redelijk toegankelijk, en responsive, er zijn niet veel dingen aan de pagina die ik zelf hoef te veranderen.
+  2. Sommige dingen van de test waren niet van toepassing voor mijn pagina: De media wordt meer als achtergrondinfo gebruikt.
+  3. De HTML is grotendeels valide, met een paar kleine punten, de website zelf is al redelijk goed in elkaar gezet vanuit een FED standpunt.
+  4. Een aantal hierarchische dingen aan de headings kloppen niet, dit kan ik zelf aanpassen
+  5. Ik zal zelf een aantal verborgen H2's toevoegen.
+  6. De pagina verandert steeds, houd daar rekening mee met het maken.
 
 </details>
 
