@@ -66,8 +66,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
 
-  <img src="readme-images/toegankelijkheidstest1.png.png" width="375px" alt="omschrijving van de pagina">
-  <img src="readme-images/toegankelijkheidstest2.png.png" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/toegankelijkheidstest1.png.png" width="375px" alt="foto van de antwoorden van de toegankelijkheidstest">
+  <img src="readme-images/toegankelijkheidstest2.png.png" width="375px" alt="foto van de antwoorden van de toegankelijkheidstest">
 
 
   Lijst met je bevindingen die in de test naar voren kwamen:
