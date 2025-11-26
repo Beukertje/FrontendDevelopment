@@ -51,9 +51,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <img src="readme-images/911pagina.png" width="375px" alt="omschrijving van de pagina">
   <img src="readme-images/911paginasmall.png" width="375px" alt="omschrijving van de pagina">
 
-  #### website voor ontwerpkeuzes::
+  #### design system van Porsche en de bijbehorende GitHub: met ondersteuning van deze site maak ik veel van mijn code:
 
   https://designsystem.porsche.com/v3/
+
+  https://github.com/porsche-design-system/porsche-design-system
  
 </details>
 
@@ -121,7 +123,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Voor de basis van de site had ik nog niet super veel vragen. Ik had een basis van mijn HTML pagina gemaakt. Wat ik wilde weten is hoe de structuur van Heading het best aangepakt zou worden
 
 
   ### Agenda voor meeting
@@ -137,10 +139,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - De H1 van mijn pagina is hidden, en kan vervangen worden met de foto midden bovenin de nav. Wat ik als H1 in de breakdownschets had kan als H2
+  - De naam van mijn tweede HTML bestand moet anders als "index2.html"
+  - Javascript zou ik kunnen verwerken in het Hamburgermenu
 
 </details>
 
@@ -154,8 +155,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+  In week 3 ben ik vooral doorgegaan met alles op orde krijgen van de hoofdcontent op de twee pagina's. Ik heb de basis van de CSS aangelegd en alle HTML is zo goed als af, ik heb nog wel wat vragen over de structuur en het overnemen van bestanden zoals svg.
 
   ### Agenda voor meeting
   samen met je groepje opstellen

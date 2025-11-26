@@ -1,0 +1,110 @@
+/**************/
+/* CSS REMEDY */
+/**************/
+
+
+
+
+
+
+
+
+
+
+
+/*********************/
+/* CUSTOM PROPERTIES */
+/*********************/
+:root{
+    /*fonts*/
+    --font-thema-regular: porschenextregular;
+    --footer-thema-semibold: porschenextsemibold;
+    --footer-thema-bold: porschenextbold;
+
+    /*colours*/
+
+    --footer-tekst-kleur: rgb(251, 252, 255);
+    --footer-achtergrond-kleur: rgb(14, 14, 18);
+
+    --primary-text-kleur: #010205;
+    --descriptive-text-kleur: #6b6d70;
+}
+
+
+
+
+
+@media{
+
+}
+
+
+
+
+
+
+/********************/
+/* ALGEMENE STYLING */
+/********************/
+
+/*fonts*/
+@font-face {
+ font-family: 'porschenextbold';
+ src: url(fonts/porsche-next-latin-bold.woff2);
+ font-weight: normal;
+ font-style: normal;
+ font-display: fallback;
+}
+
+@font-face {
+ font-family: 'porschenextregular';
+ src: url(fonts/porsche-next-latin-regular.woff2);
+ font-weight: normal;
+ font-style: normal;
+ font-display: fallback;
+}
+
+@font-face {
+ font-family: 'porschenextsemibold';
+ src: url(fonts/porsche-next-latin-semi-bold.woff2);
+ font-weight: normal;
+ font-style: normal;
+ font-display: fallback;
+}
+
+body {
+    font-family: var(--font-thema-regular);
+    margin: 0em;
+    text-decoration: none;
+}
+
+
+
+
+/************************/
+/* SPECIFIEKE ELEMENTEN */
+/************************/
+footer {
+    background-color: var(--footer-achtergrond-kleur);
+    color: var(--footer-tekst-kleur);
+}
+
+
+
+
+
+
+
+
+
+/******************************/
+/* CLASSES ID'S DIVS EN SPANS */
+/******************************/
+
+
+
+
+
+
+
+/*Hopelijk blijft deze leeg, deze zet ik meer als demo om te laten zien dat ik ze zo veel mogelijk ontwijk*/
