@@ -170,10 +170,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  - consequent in HTML hoofdletters in tags houden (h3 ipv H3)
+  - SVG overnemen via (edit as HTML)
+  - Fonts allemaal apart, maar zelfde naam met verschillende attributen
+  - Tip van Myrthe (eigenlijk Ella) je kan in je html "attribuut + hidden" toevoegen, dat hoort semantisch correct te zijn
 
 </details>
 
