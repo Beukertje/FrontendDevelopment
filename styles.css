@@ -223,25 +223,24 @@ footer li img{
     grid-gap: 1em;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr;
-    border-radius: 12px;
     padding: 2em;
 }
 
 .threeitems > li{
-    aspect-ratio: 4 / 3;
+    aspect-ratio: 16 / 9;
     display: grid;
-    grid-template-rows: 1fr 3fr 1fr 1fr;
+    grid-template-rows: 1fr 10fr 1fr 1fr;
     grid-template-columns: 1fr 11fr 1fr;
-    box-shadow: inset 0 0 5em -0.1em #0e0e12;
+    border-radius: 1em;
+    box-shadow: inset 0em 0em 5em -1em #0e0e12;
 }
 
 .threeitems li > img{
-    width: 20em;
-    height: 15em;
+    width: fit-content;
     grid-row: 1 / 5;
     grid-column: 1 / 4;
     z-index: 1;
-
+    border-radius: 1em;
     width: 100%;
     height: 100%;
 }
@@ -279,10 +278,18 @@ footer li img{
     overflow: scroll;
     list-style: none;
     align-items: center;
+    padding: 0em;
+}
+
+.modeloffer p{
+    color: var(--footer-tekst-kleur);
+    font-size: 1em;
 }
 
 .modeloffer li{
     display: grid;
+    margin-right: 1em;
+    box-shadow: inset 0 0 5em -0.1em #0e0e12;
 }
 
 .modeloffer H2{
@@ -301,7 +308,7 @@ footer li img{
 
 .discover h2{
     text-align: center;
-    font-weight: 60;
+    margin: 1.5em 0em 1.5em 0em ;
 }
 
 
@@ -316,5 +323,7 @@ footer li img{
 
 .svgwordmark{
     filter: var(--svg-kleur);
-    height: 2.25em;
+    height: 2em;
+    margin: 2em auto 2em auto;
+
 }
