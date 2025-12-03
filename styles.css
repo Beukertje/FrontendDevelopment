@@ -23,10 +23,13 @@
     /*colours*/
 
     --footer-tekst-kleur: #fbfcff;
-    --footer-achtergrond-kleur: rgb(14, 14, 18);
+    --footer-achtergrond-kleur: #0e0e12;
+    --background-colour: #EEEFF2;
 
     --primary-text-kleur: #010205;
     --descriptive-text-kleur: #6b6d70;
+
+    --svg-kleur: invert(82%) sepia(55%) saturate(82%) hue-rotate(200deg) brightness(107%) contrast(102%);
 
 }
 
@@ -86,6 +89,8 @@ body {
 
 nav{
     position: absolute;
+    margin-top: 1em;
+    margin-left: auto;
     display: flex;
     justify-content: space-around;
     width: 100%;
@@ -96,8 +101,10 @@ nav{
 footer {
     background-color: var(--footer-achtergrond-kleur);
     color: var(--footer-tekst-kleur);
+    padding: 2em;
     padding-top: 3.75rem;
     padding-bottom: 7rem;
+
 }
 
 
@@ -105,30 +112,22 @@ footer {
 /* SPECIFIEKE ELEMENTEN */
 /************************/
 
-
-
-main section:nth-of-type(even) > ul > li > img{
-    width: 20em;
-    height: 15em;
-}
-
-
-main section:nth-of-type(odd) > ul > li > img{
-    width: 20em;
-    height: 15em;
-}
-
-
 main p{
     color: #6b6d70;
     font-size: 0.75rem;
     align-self: center;
 }
 
-
+button {
+    background: transparent;
+    border: none;
+    width: 2.5em;
+    height: 2.5em;
+}
 
 video{
     grid-area: 1 / 1 / 7 / 7;
+    height: 100vh;
 }
 
 nav button{
@@ -186,17 +185,34 @@ footer li img{
 
 .frontpage{
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 2fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    height: 100%; 
+    height: 100vh;
 }
 
 .frontpage H2{
     color: var(--footer-tekst-kleur);
-    grid-row: 1 / 3 ;
+    grid-row: 2 / 3 ;
     z-index: 1;
     font-weight: 400;
-    font-size: 2em;
+    font-size: 2.5em;
+}
+
+.frontpage a{
+    text-decoration: none;
+    color: var(--footer-tekst-kleur);
+    border: 0.125em solid rgb(251, 252, 255);
+    border-radius: 0.25em;
+    padding: 0.8125em 1.625em;
+    grid-row: 3 / 4 ;
+}
+
+.frontpage p{
+    grid-row: 4 / 5 ;
+}
+
+.frontpage button{
+    grid-row: 5 / 6 ;
 }
 
 
@@ -204,21 +220,34 @@ footer li img{
 
 .threeitems{
     display: grid;
+    grid-gap: 1em;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr;
+    border-radius: 12px;
+    padding: 2em;
 }
 
 .threeitems > li{
     aspect-ratio: 4 / 3;
     display: grid;
     grid-template-rows: 1fr 3fr 1fr 1fr;
-    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-columns: 1fr 11fr 1fr;
+    box-shadow: inset 0 0 5em -0.1em #0e0e12;
 }
 
 .threeitems li > img{
+    width: 20em;
+    height: 15em;
     grid-row: 1 / 5;
     grid-column: 1 / 4;
     z-index: 1;
+
+    width: 100%;
+    height: 100%;
+}
+
+.threeitems h2{
+    text-align: center;
 }
 
 .threeitems h3{
@@ -232,13 +261,17 @@ footer li img{
 .threeitems a{
     color: var(--footer-tekst-kleur);
     grid-row: 3 / 4;
-    grid-column: 3 / 4;
+    grid-column-end: 3;
     z-index: 2;
-    align-self: center;
     justify-content: center;
 }
 
 /*modeloffer class*/
+
+.modeloffer{
+    padding: 2em;
+    background-color: var(--footer-achtergrond-kleur);
+}
 
 .modeloffer ul{
     display: flex;
@@ -253,6 +286,35 @@ footer li img{
 }
 
 .modeloffer H2{
+    color: var(--footer-tekst-kleur);
     font-weight: 400;
     font-size: 2em;
+    padding-bottom: 3vw;
+}
+
+.modeloffer li > img:nth-of-type(2){
+    border-radius: 1em;
+    width: 20em;
+}
+
+/*discover section styling*/
+
+.discover h2{
+    text-align: center;
+    font-weight: 60;
+}
+
+
+
+/*svg specific styling*/
+
+.svgicon{
+    filter: var(--svg-kleur);
+    height: 1.5em;
+    width: 1.5em;
+}
+
+.svgwordmark{
+    filter: var(--svg-kleur);
+    height: 2.25em;
 }
