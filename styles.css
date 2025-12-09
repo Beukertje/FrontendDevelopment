@@ -1,9 +1,6 @@
 /**************/
 /* CSS REMEDY */
 /**************/
-*, *::after, *::before {
-  box-sizing:content-box;  
-}
 
 
 
@@ -518,14 +515,24 @@ hr{
 
 .modeloffer li{
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
     margin-right: 1em;
-    box-shadow: inset 0 0 5em -0.1em #0e0e12;
 }
 
 .modeloffer li ul{
     grid-area: 3 / 1 / 4 / 2;
     z-index: 2;
+}
+
+.modeloffer li ul p{
+    background-color: #d7d7da59;;
+    color: var(--footer-tekst-kleur);
+    border-radius: 0.25em;
+    margin-right: 0.25em;
+    padding: 0.0625em 0.375em;
+    height: fit-content;
+    margin-bottom: 0.25em;
+    font-size: 0.8em;
 }
 
 .modeloffer H2{
@@ -536,10 +543,23 @@ hr{
 }
 
 .modeloffer a{
-    display: flex;
     align-items: center;
     grid-area: 5 / 1 / 6 / 2;
     z-index: 2;
+    padding: 0.75em;
+    font-family: var(--font-thema-regular);
+    margin: 0em 1em;
+    color: var(--footer-achtergrond-kleur);
+    background-color: var(--footer-tekst-kleur);
+    border: 0.125em solid transparent;
+    border-radius: 0.25em;
+    margin-top: 0.5em;
+    margin-bottom: 1.875em;
+    height: auto;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 400;
 }
 
 .modeloffer li > img:nth-of-type(2){
@@ -549,6 +569,15 @@ hr{
     object-fit: cover;
     z-index: 1;
 }
+
+.modelcard ul{
+    padding: 0em 1em;
+}
+
+.modelcard p{
+    padding: 0em 1em;
+}
+
 
 /*discover section styling*/
 
@@ -577,8 +606,14 @@ hr{
     margin: 2em auto 2em auto;
 }
 
-.svgicon{
+.svgicon2{
     filter: var(--primary-text-kleur);
+    height: 1.75em;
+    width: 1.75em;
+}
+
+.svgiconplay{
+    filter: var(--svg-kleur);
     height: 1.75em;
     width: 1.75em;
 }
