@@ -184,10 +184,22 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Toegankelijkheidstest 2/2 (week 4)
 
 <details>
-  <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
+  <summary>uitwerken na test in 24<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+
+  <img src="readme-images/toegankelijkheidstest3.png" width="375px" alt="foto van de antwoorden van de toegankelijkheidstest">
+  <img src="readme-images/toegankelijkheidstest4.png" width="375px" alt="foto van de antwoorden van de toegankelijkheidstest">
+
+
+  Lijst met je bevindingen die in de test naar voren kwamen:
+
+  1. De website is voornamelijk responsive, voor toegankelijkheid zijn alle elementen semantisch correct, en hebben images een title en een alt.
+  2. De HTML is valide, met op de main pagina 24 infos en discoverporsche pagina 17 infos.
+  3. De heading heb ik als het goed is beter ingedeeld dan porsche zelf.
+  4. Ik heb met hidden tags gewerkt waar screenreaders het nodig hebben (verborgen h1).
+  5. De pagina heeft als proof of concept 1 breakpoint mediaquery, bij 900px verandert de richting van de grid row en column layout. Als ik meer tijd had had ik er meer mee gedaan.
+  6. Ik had graag een light dark mode gedaan, maar de opbouw van de pagina maakt het te moeilijk en ik heb hier niet genoeg tijd voor gehad.
 
 </details>
 
@@ -201,7 +213,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+ Ik heb deze week enorm hard aan de bak gezeten aan de website. Daar kwam de conclusie uit dat ik simpelweg niet de tijd heb om alles na te maken wat ik kan van de site. Ik zal dus wel een lijstje dingen die ik vereis van mezelf om in het eindproduct te hebben:
+ - Media Query
+ - Toegankelijkheid en formatting
+ - 
 
 
   ### Agenda voor meeting
@@ -217,10 +232,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - Voor images stretchen fixen verwezen naar object-fit
-  - voor de nav centeren even inactief zetten
-  - nog een punt
-  - ...
+  - Code is te lastig voor mezelf op punten
+  - Grids herzien
+  - meer met sections werken, maakt het makkelijker.
 
 </details>
 
@@ -262,8 +276,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. [bron 1](https://www.w3schools.com/css/css3_mediaqueries_ex.asp)
+  2. [bron 2](http://w3schools.com/css/css_align.asp)
+  3. [bron 3](https://www.w3schools.com/tags/ref_pxtoemconversion.asp)
+  4. [bron 4](https://www.w3schools.com/tags/att_video_loop.asp)
+  5. [bron 5](https://www.w3schools.com/tags/av_met_pause.asp)
+  6. [bron 6](https://css-tricks.com/snippets/css/css-box-shadow/)
+  7. [bron 7](https://www.w3schools.com/css/css3_flexbox_container.asp?ref=pyxofy.com)
+  8. [bron 8](https://www.w3schools.com/css/css_rwd_mediaqueries.asp)
 
 </details>
