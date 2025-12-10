@@ -669,9 +669,12 @@ footer ul{
 }
 
 .openbutton{
-    filter: brightness(0) invert(1);
     height: 1.75em;
     width: 1.75em;
+}
+
+body:not(.secondpage) .openbutton{
+    filter: brightness(0) invert(1);
 }
 
 .secondpage .openbutton{
