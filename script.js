@@ -7,7 +7,7 @@ const closebutton = document.querySelector(".closehamburger")
 let playButton = document.querySelector('.playbutton')
 let playButtonStatus = false
 let icoonPlayButton = document.querySelector('.svgiconplay')
-let frontPageVideo = document.querySelector('video')
+let frontPageVideo = document.querySelectorAll('.videomobile, .videodesktop')
 
 // --- Functies ---
 
@@ -20,13 +20,18 @@ function videoPauzeren(){
 
         icoonPlayButton.src = 'https://cdn.ui.porsche.com/porsche-design-system/icons/pause.e41b935.svg'
         playButtonStatus = false
-        frontPageVideo.play()
+        frontPageVideo.forEach(video => {
+            video.play()
+        })
+
     } 
     else {
 
         icoonPlayButton.src = 'https://cdn.ui.porsche.com/porsche-design-system/icons/play.24226d4.svg'
         playButtonStatus = true
-        frontPageVideo.pause()
+        frontPageVideo.forEach(video => {
+            video.pause()
+        })
     }
   
 }

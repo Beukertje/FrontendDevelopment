@@ -21,12 +21,23 @@
 
     /*colours*/
 
-    --footer-tekst-kleur: #fbfcff;
-    --footer-achtergrond-kleur: #0e0e12;
-    --background-colour: #EEEFF2;
-
     --primary-text-kleur: #010205;
     --descriptive-text-kleur: #6b6d70;
+
+
+    /*redo darkmode*/
+
+    --primary-voorgrond-kleur: #fbfcff;
+    --primary-achtergrond-kleur: #0e0e12;
+
+    --secondary-voorgrond-kleur: #0e0e12;
+    --secondary-achtergrond-kleur: #EEEFF2;
+
+    --primary-voorgrond-kleur-dark: #0e0e12;
+    --primary-achtergrond-kleur-dark: #fbfcff;
+
+    --secondary-voorgrond-kleur-dark: #EEEFF2;
+    --secondary-achtergrond-kleur-dark: #212421;
 
     --svg-kleur: invert(82%) sepia(55%) saturate(82%) hue-rotate(200deg) brightness(107%) contrast(102%);
 
@@ -70,6 +81,7 @@
 body {
     font-family: var(--font-thema-regular);
     margin: 0em;
+    background-color: var(--primary-voorgrond-kleur);
 }
 
 nav{
@@ -86,8 +98,8 @@ nav{
 
 
 footer {
-    background-color: var(--footer-achtergrond-kleur);
-    color: var(--footer-tekst-kleur);
+    background-color: var(--primary-achtergrond-kleur);
+    color: var(--primary-voorgrond-kleur);
     padding: 2em;
     padding-top: 3.75rem;
     padding-bottom: 7rem;
@@ -138,7 +150,7 @@ footer h2{
 
 
 footer a{
-    color: var(--footer-tekst-kleur);
+    color: var(--primary-voorgrond-kleur);
     border-radius: 1em;
 }
 
@@ -182,7 +194,7 @@ footer ul{
 }
 
 .frontpage H2{
-    color: var(--footer-tekst-kleur);
+    color: var(--primary-voorgrond-kleur);
     grid-row: 2 / 3 ;
     grid-column: 1 / 2;
     z-index: 1;
@@ -194,8 +206,8 @@ footer ul{
 
 .frontpage a{
     text-decoration: none;
-    color: var(--footer-tekst-kleur);
-    border: 0.125em solid #EEEFF2;
+    color: var(--primary-voorgrond-kleur);
+    border: 0.125em solid var(--secondary-achtergrond-kleur);
     border-radius: 0.25em;
     padding: 0.8125em 1.625em;
     margin-top: 1em;
@@ -204,6 +216,7 @@ footer ul{
     z-index: 1;
     text-align: center;
     justify-content: center;
+    align-self: center;
 }
 
 .frontpage p{
@@ -221,25 +234,21 @@ footer ul{
     margin-top: 2em;
     height: 2em;
     width: 2em;
-    border: 0.125em solid #EEEFF2;
+    border: 0.125em solid var(--secondary-achtergrond-kleur);
     border-radius: 0.25em;
     padding: 0em;
-}
-
-.videomobile{
-    display: block;
-}
-
-.videodesktop{
-    display: none;
 }
 
 /*second page class*/
 
 .secondpage{
-    background-color: #EEEFF2;
+    background-color: var(--secondary-achtergrond-kleur);
 }
 
+.secondpage > section{
+    display: grid;
+    grid-column: 1fr;
+}
 .secondpage > main{
     padding: 1.75em;
     padding-top: 6.25em;
@@ -257,11 +266,19 @@ footer ul{
     font-weight: 600;
 }
 
+.secondpage > main > section > ul{
+    padding: 0em;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1em;
+}
+
 .secondpage main > button{
     font-family: var(--font-thema-regular);
     margin: 0em;
-    color: var(--footer-tekst-kleur);
-    background-color: var(--footer-achtergrond-kleur);
+    color: var(--primary-voorgrond-kleur);
+    background-color: var(--primary-achtergrond-kleur);
     border: 0.125em solid transparent;
     border-radius: 0.25em;
     padding: 0.8125em 1.625em;
@@ -277,7 +294,7 @@ footer ul{
 .secondpage article{
     display: grid;
     grid-template-rows: auto;
-    background-color: var(--footer-tekst-kleur);
+    background-color: var(--primary-voorgrond-kleur);
     border-radius: 1.5em;
     padding: 0.75em;
     margin-top: 4em;
@@ -297,7 +314,7 @@ footer ul{
     object-fit: contain;
     grid-row: 1 / 2 ;
     width: 100%;
-    transform: translate(0em, -4em);
+    transform: translate(0em, -3em);
 }
 
 .secondpage article ul{
@@ -322,7 +339,7 @@ footer ul{
 }
 
 .secondpage article ul:first-of-type li p:not(.newtagtype){
-    background-color: #eeeff2;
+    background-color: var(--secondary-achtergrond-kleur);
     color: var(--primary-text-kleur);
     border-radius: 0.25em;
     margin-right: 0.25em;
@@ -350,7 +367,6 @@ footer ul{
 
 .secondpage article ul:nth-of-type(2) p{
     justify-content: left;
-    width: 50%;
     margin: 0em;
 }
 
@@ -384,8 +400,8 @@ footer ul{
 .secondpage .buttonrow li button{
     font-family: var(--font-thema-regular);
     margin: 0em;
-    color: var(--footer-tekst-kleur);
-    background-color: var(--footer-achtergrond-kleur);
+    color: var(--primary-voorgrond-kleur);
+    background-color: var(--primary-achtergrond-kleur);
     border: 0.125em solid transparent;
     border-radius: 0.25em;
     padding: 0.8125em 1.625em;
@@ -398,10 +414,9 @@ footer ul{
 }
 
 .secondpage .buttonrow li:nth-of-type(2) button{
-    color: var(--footer-achtergrond-kleur);
+    color: var(--primary-achtergrond-kleur);
     background-color: transparent;
-    border: 0.125em solid var(--footer-achtergrond-kleur);
-    
+    border: 0.125em solid var(--primary-achtergrond-kleur);
     width: 100%;
 }
 
@@ -458,7 +473,7 @@ footer ul{
 .threeitems h3{
     font-weight: 700;
     font-size: 1em;
-    color: var(--footer-tekst-kleur);
+    color: var(--primary-voorgrond-kleur);
     grid-row: 3 / 4;
     grid-column: 2 / 3;
     z-index: 2;
@@ -467,7 +482,7 @@ footer ul{
 }
 
 .threeitems a{
-    color: var(--footer-tekst-kleur);
+    color: var(--primary-voorgrond-kleur);
     grid-row: 3 / 4;
     grid-column-end: 3;
     z-index: 2;
@@ -483,7 +498,7 @@ footer ul{
 
 .modeloffer{
     padding: 2em;
-    background-color: var(--footer-achtergrond-kleur);
+    background-color: var(--primary-achtergrond-kleur);
 }
 
 .modeloffer ul{
@@ -495,7 +510,7 @@ footer ul{
 }
 
 .modeloffer p{
-    color: var(--footer-tekst-kleur);
+    color: var(--primary-voorgrond-kleur);
     font-size: 1em;
     grid-area: 4 / 1 / 5 / 2;
     z-index: 2;
@@ -515,7 +530,7 @@ footer ul{
 
 .modeloffer li ul p{
     background-color: #d7d7da59;;
-    color: var(--footer-tekst-kleur);
+    color: var(--primary-voorgrond-kleur);
     border-radius: 0.25em;
     margin-right: 0.25em;
     padding: 0.0625em 0.375em;
@@ -525,7 +540,7 @@ footer ul{
 }
 
 .modeloffer H2{
-    color: var(--footer-tekst-kleur);
+    color: var(--primary-voorgrond-kleur);
     font-weight: 400;
     font-size: 2em;
     padding-bottom: 3vw;
@@ -538,8 +553,8 @@ footer ul{
     padding: 0.75em;
     font-family: var(--font-thema-regular);
     margin: 0em 1em;
-    color: var(--footer-achtergrond-kleur);
-    background-color: var(--footer-tekst-kleur);
+    color: var(--primary-achtergrond-kleur);
+    background-color: var(--primary-voorgrond-kleur);
     border: 0.125em solid transparent;
     border-radius: 0.25em;
     margin-top: 0.5em;
@@ -652,7 +667,6 @@ footer ul{
 }
 
 .svgwordmark{
-    filter: brightness(0) invert(1);
     height: 2em;
     margin: 2em auto 2em auto;
 }
@@ -712,8 +726,8 @@ body:not(.secondpage) .openbutton{
 /*scoial media specific styling*/
 
 .socialmedia img{
-    background-color: var(--footer-tekst-kleur);
-    color: var(--footer-achtergrond-kleur);
+    background-color: var(--primary-voorgrond-kleur);
+    color: var(--primary-achtergrond-kleur);
     height: 1.5em;
     width: 1.5em;
     padding: 0.8125em;
@@ -752,6 +766,74 @@ body:not(.secondpage) .openbutton{
 }
 
 
+/*media breakpoints*/
+
+@media (min-width: 500px) {
+    .frontpage{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .frontpage button{
+    grid-column: 2 / 3 ;
+    z-index: 1;
+    }
+
+    .frontpage a{
+        width: 20em;
+    }
+
+    .frontpage p {
+    grid-row: 4 / 5;
+    grid-column: 1 / 3;
+}
+}
+
+
+
+@media (max-width: 750px) {
+    .videodesktop{
+        display: none;
+    }
+    .secondpage main > button {
+        position: sticky;
+        top: 1rem;
+        z-index: 10;
+    }
+}
+
+
+@media (min-width: 750px) {
+    .videomobile{
+        display: none;
+    }
+
+    .threeitems{
+        display: grid;
+        grid-gap: 1em;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 0em;
+        padding: 2em 2em 0em 2em;
+    }
+
+    .modeloffer > ul {
+        display: grid;
+        grid-gap: 1em;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .modeloffer li > img:nth-of-type(2) {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .secondpage > main > section > ul{
+        grid-template-columns: 1fr 1fr;
+    }
+
+
+}
 
 @media (min-width: 900px) {
     .threeitems{
@@ -761,5 +843,85 @@ body:not(.secondpage) .openbutton{
     grid-template-columns: 1fr 1fr 1fr;
     margin: 0em;
     padding: 2em 2em 0em 2em;
+    }
+
+    .modeloffer > ul {
+    display: grid;
+    grid-gap: 1em;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    }
+
+    .modeloffer li > img:nth-of-type(2) {
+    width: 100%;
+    object-fit: cover;
+}
+}
+
+/*media light dark mode*/
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: var(--secondary-achtergrond-kleur-dark);
+    }
+
+    .secondpage main > button{
+        color: var(--primary-voorgrond-kleur-dark);
+        background-color: var(--primary-achtergrond-kleur-dark);
+    }
+
+    .secondpage article{
+        background-color: var(--secondary-achtergrond-kleur);
+    }
+
+    .threeitems a{
+        color: var(--primary-voorgrond-kleur-dark);
+    }
+
+    .modeloffer li ul p{
+        color: var(--primary-voorgrond-kleur-dark);
+    }
+
+    .modeloffer H2{
+        color: var(--primary-voorgrond-kleur-dark);
+    }
+
+    .modeloffer a{
+        color: var(--primary-achtergrond-kleur-dark);
+        background-color: var(--primary-voorgrond-kleur-dark);
+    }
+
+    .socialmedia img{
+        background-color: var(--primary-voorgrond-kleur-dark);
+        color: var(--primary-achtergrond-kleur-dark);
+    }
+
+    .modeloffer {
+        background-color: var(--primary-achtergrond-kleur-dark);
+    }
+
+    .secondpage {
+        background-color: var(--secondary-achtergrond-kleur-dark);
+    }
+
+    .secondpage h2 {
+        color: var(--primary-achtergrond-kleur-dark);
+    }
+
+    .secondpage h3 {
+        color: var(--primary-achtergrond-kleur-dark);
+    }
+
+    .discover h2 {
+        color: var(--primary-achtergrond-kleur-dark);
+    }
+
+    .svgwordmark{
+        filter: brightness(0) invert(0);
+    }
+}
+
+@media (prefers-color-scheme: light){
+    .svgwordmark{
+        filter: brightness(0) invert(1);
     }
 }

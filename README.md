@@ -252,14 +252,17 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+  Ik heb (soms tot mijn frustratie) flink lopen aanpoten en geleerd hoe je
+  grids kan gebruiken. In de eerste instantie liep ik vast, maar nu heb ik gereviseerd en snap ik hoe het in elkaar zit, zonder dat ik hiervoor een youtubetutorial zou moeten volgen om het op te frissen.
 
+  Ik heb beter geleerd CSS te formatten, en design systems te opnemen in een site.
+  Ik heb geleerd om met een overzichtelijker oog naar CSS te kijken, en beter in te kunnen schatten waar, wat nodig is om iets vorm te geven (denk aan de Model cards op de tweede Porsche 911 pagina, die is best complex met classes.)
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
-
+  Helaas heb je beperkt de tijd, en zijn er veel dingen niet gelukt. De pagina is heel statisch (weinig animaties),
+  en ook zijn er een paar ontbrekende finishing touches die de site zouden tillen naar iets waar ik heel trots op ben.
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
 </details>
 
