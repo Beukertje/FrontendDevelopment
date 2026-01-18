@@ -248,7 +248,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/iphonehome.png" width="375px" alt="uitomst opdracht 1">
 
 
   ### Dit ging goed/Heb ik geleerd: 
@@ -257,13 +257,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   Ik heb beter geleerd CSS te formatten, en design systems te opnemen in een site.
   Ik heb geleerd om met een overzichtelijker oog naar CSS te kijken, en beter in te kunnen schatten waar, wat nodig is om iets vorm te geven (denk aan de Model cards op de tweede Porsche 911 pagina, die is best complex met classes.)
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  <img src="readme-images/Schermafbeelding 2026-01-18 220229.png" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
   Helaas heb je beperkt de tijd, en zijn er veel dingen niet gelukt. De pagina is heel statisch (weinig animaties),
   en ook zijn er een paar ontbrekende finishing touches die de site zouden tillen naar iets waar ik heel trots op ben.
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="readme-images/finishingtouch.png" width="375px" alt="bummer">
+  <img src="readme-images/finishingtouch1.png" width="375px" alt="bummer">
 </details>
 
 
